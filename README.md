@@ -12,10 +12,10 @@
 ## Sobre 
 Serão realizados 4 exercícios na plataforma no LeetCode que são:
 
-- <a href="https://leetcode.com/problems/find-edges-in-shortest-paths/description/">Encontrar arestas nos caminhos mais curtos (Difícil)</a>
-- <a href="https://leetcode.com/problems/keys-and-rooms/description/ ">Chaves e quartos (Médio)</a>
-- <a href=" https://leetcode.com/problems/design-graph-with-shortest-path-calculator/description/ ">Gráfico de design com calculadora de caminho mais curto (Difícil)</a>
-- <a href="https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/">Custo mínimo para se fazer pelo menos um caminho válido numa grade (Difícil)</a>
+- <a href="https://leetcode.com/problems/find-edges-in-shortest-paths/description/">3123. Encontrar arestas nos caminhos mais curtos (Difícil)</a>
+- <a href="https://leetcode.com/problems/keys-and-rooms/description/ ">0841. Chaves e quartos (Médio)</a>
+- <a href="https://leetcode.com/problems/design-graph-with-shortest-path-calculator/description/">2642. Gráfico de design com calculadora de caminho mais curto (Difícil)</a>
+- <a href="https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/">1368. Custo mínimo para se fazer pelo menos um caminho válido numa grade (Difícil)</a>
 
 ## Screenshots
 
