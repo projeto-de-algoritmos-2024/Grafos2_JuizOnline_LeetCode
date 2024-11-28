@@ -18,7 +18,7 @@ Serão realizados 4 exercícios na plataforma no LeetCode que são:
 - <a href="https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/">1368. Custo mínimo para se fazer pelo menos um caminho válido numa grade (Difícil)</a>
 
 ## Screenshots
-
+![Aceite do exercício 0841](./imgs/0841_accepted.png "Aceite do exercício 0841")
 
 ## Instalação 
 **Linguagem**: Python 3.10.*<br>

@@ -1,5 +1,4 @@
 class Solution:
-    visited = set()
     
     def canVisitAllRooms(self, rooms: list[list[int]]) -> bool:
         """
@@ -7,18 +6,14 @@ class Solution:
         então é possível chegar em todos os quartos a partir do inicial (0)
         """
 
-        self.visitRoom(0, rooms)
+        visited = set()
+        self.visitRoom(0, rooms, visited)
 
-        return len(self.visited) == len(rooms) 
+        return len(visited) == len(rooms) 
 
     # Função que irá viajar de quarto em quarto por DFS
-    def visitRoom(self, roomNumber, rooms):
+    def visitRoom(self, roomNumber, rooms, visited):
+        visited.add(roomNumber)
         for neighbor in rooms[roomNumber]:
-            if neighbor not in self.visited:
-                self.visited.add(neighbor)
-                self.visitRoom(neighbor, rooms)
-
-
-        
-
-
+            if neighbor not in visited:
+                self.visitRoom(neighbor, rooms, visited)
