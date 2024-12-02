@@ -45,19 +45,23 @@ class Solution:
         distances_from_last = self.distances_djikstra(n, edges, n-1)
         total_shortest_path = distances_from_first[n-1]
 
+        print(distances_from_first, distances_from_last)
+
         result = []
         for node_origin, node_dest, weight in edges:
-            if distances_from_first[node_origin] + weight + distances_from_last[node_dest] == total_shortest_path\
+            # Verifica se é possível caminho entre os nós '0' e 'n-1' e se a aresta atual faz parte de um dos caminhos mais curtos
+            if total_shortest_path != float('inf') and \
+            (distances_from_first[node_origin] + weight + distances_from_last[node_dest] == total_shortest_path\
             or \
-            distances_from_first[node_dest] + weight + distances_from_last[node_origin] == total_shortest_path:
+            distances_from_first[node_dest] + weight + distances_from_last[node_origin] == total_shortest_path):
                 result.append(True)
             else:
                 result.append(False)
 
         return result
 
-# edges = [[2,0,1],[0,1,1],[0,3,4],[3,2,2]]
-# vertices = 4
+# edges = [[2,1,6]]
+# vertices = 3
 
 # solucao = Solution()
 
